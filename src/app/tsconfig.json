@@ -9,7 +9,7 @@
       "es2016",
       "dom"
     ],
-    "outDir": "../dist/package",
+    "outDir": "../../dist/package",
     "target": "es5",
     "module": "commonjs",
     "baseUrl": "",

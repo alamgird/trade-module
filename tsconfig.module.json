@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "declaration": true,
+        "outDir": "./dist/package",
+        "stripInternal": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "./typings/globals/core-js/index.d.ts",
+        "./src/app/index.ts"
+    ],
+    "angularCompilerOptions": {
+        "getDir": "aot",
+        "skipTemplateCodegen": false
+    }
+}
